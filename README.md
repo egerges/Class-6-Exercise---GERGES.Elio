@@ -27,7 +27,7 @@ Use this document as a starting point for the Class 6 exercise. Please note that
 Answer: git status || echo "You're not in a git repo"
 
 2. > Assuming that you are currently within a Git repository, write the command (or commands) that will create a new file named 'hello-world.txt' then stage and commit it.
-Answer: 
+Answer: touch 'hello-world.txt' && git add . && git commit -m "Creating the file 'hello-world.txt'"
 
 3. > Assuming that you are currently within a Git repository that contains a file named 'README.md', write the command (or commands) that will display any uncommitted changes made to this file.
 Answer: 

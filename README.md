@@ -24,7 +24,7 @@ Use this document as a starting point for the Class 6 exercise. Please note that
 
 ## Questions
 1. > Assuming that you aren't sure whether you're currently inside of a Git repository, write the command (or commands) that will give you this information.
-Answer: 
+Answer: git status || echo "You're not in a git repo"
 
 2. > Assuming that you are currently within a Git repository, write the command (or commands) that will create a new file named 'hello-world.txt' then stage and commit it.
 Answer: 

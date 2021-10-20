@@ -24,16 +24,16 @@ Use this document as a starting point for the Class 6 exercise. Please note that
 
 ## Questions
 1. > Assuming that you aren't sure whether you're currently inside of a Git repository, write the command (or commands) that will give you this information.
-Answer: git status || echo "You're not in a git repo"
+Answer: **git status || echo "You're not in a git repo"**
 
 2. > Assuming that you are currently within a Git repository, write the command (or commands) that will create a new file named 'hello-world.txt' then stage and commit it.
-Answer: touch 'hello-world.txt' && git add . && git commit -m "Creating the file 'hello-world.txt'"
+Answer: **touch 'hello-world.txt' && git add . && git commit -m "Creating the file 'hello-world.txt'"**
 
 3. > Assuming that you are currently within a Git repository that contains a file named 'README.md', write the command (or commands) that will display any uncommitted changes made to this file.
-Answer: git diff README.md
+Answer: **git diff README.md**
 
 4. > Assuming that you are currently within a Git repository that includes several commits, write the command (or commands) that will display the changes from the commit with the ID of abc123.
-Answer: 
+Answer: **git show abc123**
 
 5. > Assuming that you are currently within a Git repository that includes multiple commits, write the command (or commands) that will display the IDs and commit messages for the 3 most recent commits.
 Answer: 
